@@ -1,0 +1,138 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+
+title_filter:
+  positive:
+    - "Backend"
+    - "Backend Engineer"
+    - "Software Engineer"
+    - "API"
+    - "Integration"
+    - "Integration Engineer"
+    - "Platform Engineer"
+    - ".NET"
+    - "C#"
+    - "Fullstack"
+    - "AI"
+    - "ML"
+    - "LLM"
+    - "Agent"
+    - "GenAI"
+    - "Automation"
+
+  negative:
+    - "Junior"
+    - "Intern"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Staff"
+
+search_queries:
+  - name: Ashby — Backend Engineer
+    query: 'site:jobs.ashbyhq.com "Backend Engineer" OR "Software Engineer Backend" remote'
+    enabled: true
+
+  - name: Ashby — .NET Developer
+    query: 'site:jobs.ashbyhq.com ".NET Developer" OR "C# Developer" remote'
+    enabled: true
+
+  - name: Ashby — Integration Engineer
+    query: 'site:jobs.ashbyhq.com "Integration Engineer" OR "API Integration" remote'
+    enabled: true
+
+  - name: Ashby — Platform Engineer
+    query: 'site:jobs.ashbyhq.com "Platform Engineer" OR "Infrastructure Engineer" remote'
+    enabled: true
+
+  - name: Greenhouse — Backend Engineer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Backend Engineer" OR "API Engineer" remote'
+    enabled: true
+
+  - name: Greenhouse — .NET Developer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io ".NET Developer" OR "C# Developer" remote'
+    enabled: true
+
+  - name: Greenhouse — Integration Roles
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Integration Engineer" OR "API Integration" remote'
+    enabled: true
+
+  - name: Workable — Backend Roles
+    query: 'site:apply.workable.com "Backend Engineer" OR "API Engineer" remote'
+    enabled: true
+
+  - name: Backend — Remote Europe
+    query: 'site:remotive.com OR site:weworkremotely.com "Backend Engineer" OR "Software Engineer" Europe'
+    enabled: true
+
+  - name: Python Backend / FastAPI
+    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "FastAPI" OR "Python Backend" remote'
+    enabled: true
+
+  - name: Applied AI Engineer
+    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "AI Engineer" OR "Applied AI" backend OR API remote'
+    enabled: true
+
+tracked_companies:
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    api: https://boards-api.greenhouse.io/v1/boards/intercom/jobs
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    enabled: true
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    enabled: true
+
+  - name: n8n
+    careers_url: https://jobs.ashbyhq.com/n8n
+    enabled: true
+
+  - name: Zapier
+    careers_url: https://jobs.ashbyhq.com/zapier
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Backend" OR "API" OR "AI Engineer"'
+    enabled: true
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    enabled: true

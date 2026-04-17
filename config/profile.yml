@@ -1,0 +1,86 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Syed Afnaan"
+  email: "syed.afnaan222@gmail.com"
+  phone: "+966506239483"
+  location: "Riyadh, Saudi Arabia"
+  linkedin: "linkedin.com/in/afnaansyed22"
+  portfolio_url: ""
+  github: "https://github.com/SyedAfnaan"
+  twitter: ""
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Senior Backend Developer"
+    - "Senior .NET Developer"
+    - "AI Engineer (Applied AI)"
+    - "Integration Specialist"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Backend Developer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: ".NET Developer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "AI/ML Engineer"
+      level: "Junior-Mid"
+      fit: "secondary"
+    - name: "Integration Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Backend Developer building AI-driven systems and enterprise integrations"
+  # Your exit story — what makes you unique
+  exit_story: "Started in enterprise insurance systems (Progress 4GL), expanded into .NET APIs and integrations, and now building AI-driven products and automation systems."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Enterprise system integrations (APIs, banking, aggregators)"
+    - "Backend development with .NET and REST APIs"
+    - "Rapid prototyping of AI-powered products (FastAPI, RAG, automation)"
+    - "Bridging legacy systems (Progress/OpenEdge) with modern architectures"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Medical Malpractice Policy System"
+      url: ""
+      hero_metric: "Built backend APIs for quotation and policy issuance (live, awaiting regulatory approval)"
+    - name: "Insurance Aggregator Integration (Tameeni)"
+      url: ""
+      hero_metric: "Developed APIs for external policy integration (ready for deployment)"
+    - name: "SAB Bank Integration"
+      url: ""
+      hero_metric: "Integrated financial transaction APIs with IMS system"
+    - name: "ComplyAI (AI Compliance Scanner)"
+      url: ""
+      hero_metric: "Built FastAPI-based AI tool for website compliance scanning with multi-feature analysis"
+    - name: "AI Voice Agent (Vapi Integration)"
+      url: ""
+      hero_metric: "Built AI assistant integrated with APIs for real-time customer data retrieval"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://yourdemo.com"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$40K-70K"     # Your target total comp
+  currency: "USD"
+  minimum: "$40K"               # Walk-away number
+  location_flexibility: "Open to relocation or remote roles"
+
+location:
+  country: "Saudi Arabia"
+  city: "Riyadh"
+  timezone: "AST (UTC+3)"
+  visa_status: "Requires sponsorship for international roles"
+  # For remote roles outside your country:
+  # onsite_availability: "1 week/month in any city"
