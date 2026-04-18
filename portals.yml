@@ -90,6 +90,66 @@ search_queries:
     query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "AI Engineer" OR "Applied AI" backend OR API remote'
     enabled: true
 
+  - name: LinkedIn — Backend Engineer (KSA/UAE)
+    query: 'site:linkedin.com/jobs "Backend Engineer" OR "Software Engineer Backend" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: LinkedIn — .NET Developer (KSA/UAE)
+    query: 'site:linkedin.com/jobs ".NET Developer" OR "C# Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Bayt — Backend / API Roles
+    query: 'site:bayt.com "Backend Engineer" OR "API Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Bayt — .NET Developer
+    query: 'site:bayt.com ".NET Developer" OR "C# Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: GulfTalent — Software Engineer
+    query: 'site:gulftalent.com "Software Engineer" OR "Backend Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: GulfTalent — Integration / API Roles
+    query: 'site:gulftalent.com "Integration Engineer" OR "API Integration" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Naukrigulf — Backend Roles
+    query: 'site:naukrigulf.com "Backend Developer" OR "Software Engineer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Naukrigulf — .NET Developer
+    query: 'site:naukrigulf.com ".NET Developer" OR "C# Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Indeed — Backend Engineer (KSA/UAE)
+    query: 'site:indeed.com "Backend Engineer" OR "Software Engineer Backend" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Indeed — .NET / C# Roles
+    query: 'site:indeed.com ".NET Developer" OR "C# Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Wuzzuf / Forasna (Regional Tech Jobs)
+    query: 'site:wuzzuf.net OR site:forasna.com "Software Engineer" OR "Backend Developer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: AngelList (Wellfound) — Startups GCC
+    query: 'site:wellfound.com "Backend Engineer" OR "Software Engineer" Saudi Arabia OR UAE'
+    enabled: true
+
+  - name: Company Career Pages (Aramco, STC, Careem, Noon)
+    query: 'site:careers.aramco.com OR site:careers.stc.com.sa OR site:careers.careem.com OR site:careers.noon.com "Software Engineer"'
+    enabled: true
+
+  - name: Government Portals (KSA/UAE)
+    query: 'site:jadarat.sa OR site:tdra.gov.ae OR site:uaejobs.ae "Software Engineer" OR "IT Specialist"'
+    enabled: true
+
+  - name: Remote + GCC Relocation
+    query: 'site:weworkremotely.com OR site:remotive.com "Backend Engineer" relocation UAE OR Saudi Arabia'
+    enabled: true
+
 tracked_companies:
   - name: Intercom
     careers_url: https://job-boards.greenhouse.io/intercom
@@ -135,4 +195,106 @@ tracked_companies:
 
   - name: LangChain
     careers_url: https://jobs.ashbyhq.com/langchain
+    enabled: true
+
+  - name: TeamViewer
+    careers_url: https://jobs.teamviewer.com
+    scan_method: websearch
+    scan_query: 'site:jobs.teamviewer.com "Backend Engineer" OR ".NET Developer" OR "Software Engineer"'
+    enabled: true
+
+  - name: Takamol Holding
+    careers_url: https://careers.takamol.com.sa
+    scan_method: websearch
+    scan_query: 'site:careers.takamol.com.sa "Software Engineer" OR "Backend Developer" OR ".NET"'
+    enabled: true
+
+  - name: STC
+    careers_url: https://careers.stc.com.sa
+    scan_method: websearch
+    scan_query: 'site:careers.stc.com.sa "Software Engineer" OR "Backend Engineer" OR ".NET Developer"'
+    enabled: true
+
+  - name: Elm Company
+    careers_url: https://careers.elm.sa
+    scan_method: websearch
+    scan_query: 'site:careers.elm.sa "Software Engineer" OR "Backend Developer" OR ".NET"'
+    enabled: true
+
+  - name: Saudi Aramco
+    careers_url: https://careers.aramco.com
+    scan_method: websearch
+    scan_query: 'site:careers.aramco.com "Software Engineer" OR "IT Developer" OR "Backend"'
+    enabled: true
+
+  - name: Noon
+    careers_url: https://careers.noon.com
+    scan_method: websearch
+    scan_query: 'site:careers.noon.com "Backend Engineer" OR "Software Engineer"'
+    enabled: true
+
+  - name: Careem
+    careers_url: https://careers.careem.com
+    scan_method: websearch
+    scan_query: 'site:careers.careem.com "Backend Engineer" OR "Software Engineer" OR "Platform Engineer"'
+    enabled: true
+
+  - name: Talabat
+    careers_url: https://careers.talabat.com
+    scan_method: websearch
+    scan_query: 'site:careers.talabat.com "Backend Engineer" OR "Software Engineer"'
+    enabled: true
+
+  - name: Kitopi
+    careers_url: https://jobs.ashbyhq.com/kitopi
+    enabled: true
+
+  - name: Lean Technologies
+    careers_url: https://jobs.ashbyhq.com/leantech
+    enabled: true
+
+  - name: Tabby
+    careers_url: https://job-boards.greenhouse.io/tabby
+    api: https://boards-api.greenhouse.io/v1/boards/tabby/jobs
+    enabled: true
+
+  - name: Tamara
+    careers_url: https://jobs.ashbyhq.com/tamara
+    enabled: true
+
+  - name: Property Finder
+    careers_url: https://job-boards.greenhouse.io/propertyfinder
+    api: https://boards-api.greenhouse.io/v1/boards/propertyfinder/jobs
+    enabled: true
+
+  - name: Dubizzle Group
+    careers_url: https://job-boards.greenhouse.io/dubizzle
+    api: https://boards-api.greenhouse.io/v1/boards/dubizzle/jobs
+    enabled: true
+
+  - name: Bayzat
+    careers_url: https://job-boards.greenhouse.io/bayzat
+    api: https://boards-api.greenhouse.io/v1/boards/bayzat/jobs
+    enabled: true
+
+  - name: CAFU
+    careers_url: https://jobs.ashbyhq.com/cafu
+    enabled: true
+
+  - name: YAP
+    careers_url: https://jobs.ashbyhq.com/yap
+    enabled: true
+
+  - name: Mozn
+    careers_url: https://careers.mozn.sa
+    scan_method: websearch
+    scan_query: 'site:careers.mozn.sa "Backend Engineer" OR "Software Engineer" OR "AI Engineer"'
+    enabled: true
+
+  - name: Salla
+    careers_url: https://jobs.ashbyhq.com/salla
+    enabled: true
+
+  - name: Zid
+    careers_url: https://jobs.ashbyhq.com/zid
     enabled: true
